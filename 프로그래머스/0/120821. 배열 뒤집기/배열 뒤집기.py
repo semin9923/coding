@@ -1,5 +1,5 @@
 def solution(num_list):
     answer = []
-    for j in range(len(num_list)-1, -1, -1):
-        answer.append(num_list[j])
+    num_list.reverse()
+    answer = num_list
     return answer
